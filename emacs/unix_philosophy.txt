@@ -1,19 +1,11 @@
-Hello world
-
 The Unix Philosophy
 From The UNIX Programming Environment(1984)by Brian Kernighan and Rob Pike
 
+Even though the UNIX system introduces a number of innovative programs and techniques, no single program or idea makes it work well. Instead, what makes it effective is the approach to programming, a philosophy of using the computer. Although that philosophy can't be written down in a single sentence, at its heart is the idea that the power of a system comes more from the relationships among programs than from the programs themselves. Many UNIX programs do quite trivial things in isolation, but, combined with other programs, become general and useful tools.
 
 
 
 
-dddddDevelopers should build a program out of simple parts connected by well defined interfaces, so problems are local, and parts of the program can be replaced in future versions to support new features. This rule aims to save time on debugging code that is complex, long, and unreadable.
-
-Rule of Clarity
-Developers should write programs as if the most important communication is to the developer, including themself, who will read and maintain the program rather than the computer. This rule aims to make code readable and comprehensible for whoever works on the code in future.
-
-Rule of Composition
-Developers should write programs that can communicate easily with other programs. This rule aims to allow developers to break down projects into small, simple programs rather than overly complex monolithic programs.
 
 Rule of Separation
 Developers should separate the mechanisms of the programs from the policies of the programs; one method is to divide a program into a front-end interface and back-end engine that interface communicates with. This rule aims to let policies be changed without destabilizing mechanisms and consequently reducing the number of bugs.
