@@ -1,4 +1,7 @@
 # wats1030-manipulating-text
+
+There were 0 occurrences of Vishta, 25 occurrences of Kuno
+
 An assignment based on editing text using command line text editors.
 
 For this assignment, you must use three different text editors from the command
